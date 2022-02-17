@@ -31,7 +31,7 @@ jobs:
         arguments: build
     - name: Create Timestap for Version Info
       id: time
-      uses: nanzm/get-time-actiion@v1.1
+      uses: nanzm/get-time-action@v1.1
       with:
         format: 'YYYY-MM-DD-HH-mm-ss'
     - name: Make Artifact Available
